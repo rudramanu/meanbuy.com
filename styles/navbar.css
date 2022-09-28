@@ -41,11 +41,18 @@ body{
     display: flex;
     /* border: 1px solid red; */
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 #search>input{
     width: 300px;
+    padding: 10px 20px;
+}
+#search>button{
+    padding: 9px 20px;
+    background-color: orangered;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
 }
 #navmrleft{
     /* border: 1px solid blue; */
@@ -99,7 +106,7 @@ body{
     padding: 0px 50px;
     
 }
-#navl li{
+#navl>ul>li{
     padding: 0px 50px;
 }
 .fa-solid{
@@ -109,8 +116,27 @@ body{
 *{
     text-decoration: none;
 }
-#navmrleft a, #logio a{
+#navmrleft a, #logio a, #navl ul li a{
     color: black;
 }
+#dropdown ul{
+    display: block;
+    margin-top: 10px;
+    background-color: transparent;
+    
+    background-color: white;
+}
+#dropdown{
+    display: none;
 
+    
+}
+#navl ul li:hover #dropdown{
+    display: block;
+    position: absolute;
+
+}
+#navl a:hover{
+    color: orangered;
+}
 
