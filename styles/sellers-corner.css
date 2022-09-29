@@ -1,0 +1,55 @@
+#container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    
+}
+#contleft{
+    width: 50%;
+    padding-right: 20px;
+    
+}
+#contleftdown{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,300px);
+    gap: 50px;
+    column-gap: 100px;
+}
+#contleftdown>div{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+    
+}
+#contleftdown h1,.title{
+    color: orange;
+}
+#contright{
+    width: 50%;
+}
+#contright>h2{
+    text-align: center;
+}
+input{
+    width: 95%;
+    padding: 5px;
+}
+label{
+    font-size: 20px;
+}
+
+#contright>p{
+    font-size: 18px;
+}
+*{
+    text-decoration: none;
+}
+input[type="submit"]
+{
+    width: 40%;
+    background-color: orange;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}

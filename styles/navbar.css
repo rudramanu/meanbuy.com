@@ -1,6 +1,7 @@
 #navbar{
     /* border: 5px solid red; */
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    position: sticky;
 }
 #navt{
     
@@ -139,4 +140,9 @@ body{
 #navl a:hover{
     color: orangered;
 }
-
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
