@@ -1,4 +1,8 @@
+body{
+    margin-top: 200px;
+}
 #container{
+    
     display: flex;
     width: 90%;
     padding: 20px;
@@ -6,6 +10,7 @@
     border: 2px solid rgb(111, 111, 111)
 }
 #cont_left{
+    
     width: 60%;
     
     padding: 20px;
@@ -41,8 +46,8 @@ form>input[type="submit"]{
     text-decoration: none;
 }
 #cont_right>div{
-    
     height: 300px;
+    
 }
 #cont_right>div:nth-child(1){
     border: 2px solid rgb(111, 111, 111)

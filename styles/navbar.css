@@ -1,7 +1,13 @@
 #navbar{
     /* border: 5px solid red; */
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    position: sticky;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    
+    
 }
 #navt{
     
@@ -13,6 +19,7 @@
 body{
     padding: 0px;
     margin: 0px;
+    
 }
 #navt>span{
   color: orangered;
@@ -124,18 +131,14 @@ body{
     display: block;
     margin-top: 10px;
     background-color: transparent;
-    
     background-color: white;
 }
 #dropdown{
     display: none;
-
-    
 }
 #navl ul li:hover #dropdown{
     display: block;
     position: absolute;
-
 }
 #navl a:hover{
     color: orangered;
@@ -144,5 +147,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+#behave{
+    color: green;
+    
+    
+}
+#happy{
+    color: orangered;
+}
+#logio>i{
+    font-size: 25px;
+    color: blue;
 }

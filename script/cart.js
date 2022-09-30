@@ -1,12 +1,11 @@
 let cartStored=JSON.parse(localStorage.getItem("cart-item")) || [];
+console.log(cartStored.length)
 
-// let totalPrice=cartStored.reduce(function(acc,el){
-//     return acc+Number(el.price)
-// },0)
 
-// document.querySelector("").innerText=cartStored.length;
+console.log("hii",cartStored.length)
 
-// document.querySelector("").innerText=totalPrice
+document.querySelector("#countcart").innerHTML=cartStored.length;
+
 
 cartStored.forEach(function(el,index){
     let card=document.createElement("div")
@@ -38,6 +37,6 @@ cartStored.forEach(function(el,index){
   })
 
   function removeFromCart(index){
-      LSData.splice(index,1)
-      localStorage.setItem("cart-item", JSON.stringify(LSData))
+      cartStored.splice(index,1)
+      localStorage.setItem("cart-item", JSON.stringify(cartStored))
   }
