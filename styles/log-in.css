@@ -80,3 +80,19 @@ form>input[type="submit"]{
 #cont_right>div:nth-child(2)>h2{
     text-align: center;
 }
+
+#editcart{
+    
+    width: 80%;
+    margin: auto;
+}
+#editcart input{
+    margin-top: -10px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid orange;
+    color: orange;
+    padding: 15px 150px;
+    font-size: 18px;
+    cursor: pointer;
+}

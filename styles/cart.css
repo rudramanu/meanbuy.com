@@ -14,3 +14,19 @@
 #cartcontainer>div>img{
     width: 80%;
 }
+#place{
+    background-color: orange;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 15px 100px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    margin-left: 20px;
+}
+#place>a{
+    color: white;
+}
+
