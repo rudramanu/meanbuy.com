@@ -1,0 +1,117 @@
+body{
+    margin-top: 200px;
+}
+#maincontainer{
+    display: flex;
+    width: 80%;
+    
+    margin: auto;
+}
+*{
+    text-decoration: none;
+}
+#left{
+    width: 50%;
+    
+}
+#right{
+    width: 50%;
+    
+}
+#left3>h3+div{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+#left3>h3+div div{
+    width: 100px;
+    
+    text-align: center;
+    align-items: center;
+}
+#left3>h3+div img{
+    width: 80px;
+    height: 80px;
+    
+}
+#left3>div>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
+}
+#left4{
+    text-align: center;
+    
+    margin-bottom: 20px;
+}
+#left4 button{
+    padding: 10px 50px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#left2{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+#left1 input[type="text"]{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#left1 label{
+    font-size: 20px;
+}
+#left2left{
+    width: 50%;
+    
+}
+#left2left input, #left2left select{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#left2right{
+    width: 50%;
+    
+}
+#left2right input{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#left,#left1, #left2, #left2left, #left2right,#left3,#right{
+    padding: 10px;
+}
+#cong{
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(255, 237, 240);
+    color: orange;
+}
+#right input{
+    padding: 10px 50px;
+}
+#button2{
+    padding: 12px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    margin-left: -5px;
+    cursor: pointer;
+}
+#cong+div{
+    margin-bottom: 20px;
+}
+#grand+div>img{
+    width: 150px;
+}
+#grand+div{
+    text-align: center;
+}
